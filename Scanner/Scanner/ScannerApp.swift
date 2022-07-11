@@ -1,14 +1,14 @@
 //
-//  BarcodeTextScannerApp.swift
-//  BarcodeTextScanner
+//  ScannerApp.swift
+//  Scanner
 //
-//  Created by Alfian Losari on 6/25/22.
+//  Created by Casey on 10/07/22.
 //
 
 import SwiftUI
 
 @main
-struct BarcodeTextScannerApp: App {
+struct ScannerApp: App {
     
     @StateObject private var vm = AppViewModel()
     
@@ -22,3 +22,5 @@ struct BarcodeTextScannerApp: App {
         }
     }
 }
+
+
